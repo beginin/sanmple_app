@@ -30,6 +30,10 @@ end
 group :test do
   gem 'rspec-rails'
   gem 'webrat'
+  gem 'autotest'
+  gem 'redgreen'
+  gem 'test-unit'
+  gem 'spork'
 end
 
 # To use ActiveModel has_secure_password
