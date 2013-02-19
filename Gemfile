@@ -22,9 +22,11 @@ end
 
 gem 'jquery-rails'
 gem 'therubyracer'
+gem 'gravatar_image_tag'
 
 group :development do
   gem 'rspec-rails'
+  gem 'annotate'
 end
 
 group :test do
@@ -34,6 +36,7 @@ group :test do
   gem 'redgreen'
   gem 'test-unit'
   gem 'spork'
+  gem 'factory_girl_rails'
 end
 
 # To use ActiveModel has_secure_password
